@@ -16,6 +16,10 @@ const GifSearch = ({ onGifSelect }) => {
     };
   };
 
+  useEffect(() => {
+    // Placeholder effect that is currently unused
+  }, []);
+
   const fetchGifs = async (query) => {
     if (!query) return;
     try {
