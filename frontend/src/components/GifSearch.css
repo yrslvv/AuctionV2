@@ -1,0 +1,42 @@
+.gif-search-container {
+    margin-top: 20px;
+  }
+  
+  .gif-search-container form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .gif-search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .gif-search-container button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .gif-search-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .gif-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gif-item {
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
